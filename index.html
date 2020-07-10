@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Trinkgeldrechner</h1>
+    <form action="">
+        <label for="">Wie hoch war die Rechnung? (€)</label>
+        <input type="text" name="" id="bill">
+        <label for="">Wieviele Menschen teilen sich die Rechnung?</label>
+        <input type="text" name="" id="people">
+        <select name="Wie war der Service?" id="service">
+            <option value="Wie war der Service?">Wie war der Service?</option>
+            <option value="schlecht">Schlecht</option>
+            <option value="OK">OK</option>
+            <option value="Super">Super</option>
+          </select>
+        <input type="button" value="Berechne" onclick="myFunct()">
+    </form>
+    <p id="error"></p>
+    <p id="tip"></p>
+    <p id="sum"></p>
+    <p id="person"></p>
+    <script src="main.js"></script>
+</body>
+</html>
