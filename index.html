@@ -8,17 +8,23 @@
 <body>
     <h1>Trinkgeldrechner</h1>
     <form action="">
+        <div>
         <label for="">Wie hoch war die Rechnung? (€)</label>
         <input type="text" name="" id="bill">
+        </div>
+        <div>
         <label for="">Wieviele Menschen teilen sich die Rechnung?</label>
         <input type="text" name="" id="people">
+        </div>
         <select name="Wie war der Service?" id="service">
             <option value="Wie war der Service?">Wie war der Service?</option>
             <option value="schlecht">Schlecht</option>
             <option value="OK">OK</option>
             <option value="Super">Super</option>
           </select>
+          <div>
         <input type="button" value="Berechne" onclick="myFunct()">
+        </div>
     </form>
     <p id="error"></p>
     <p id="tip"></p>
